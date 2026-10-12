@@ -19,7 +19,7 @@ jobs:
       - name: Set up Amazon Corretto JDK 17
         uses: actions/setup-java@v4
         with:
-          java-version: '17'
+          java-version: '11'
           distribution: 'corretto'
 
       # 3️⃣ Maven으로 WebGoat 빌드
